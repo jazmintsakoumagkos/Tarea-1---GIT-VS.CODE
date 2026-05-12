@@ -18,11 +18,21 @@ body {
 }
 
 button {
-  background: #6c63ff;
+  background: #5cce6b;
   color: white;
   border: none;
+
   padding: 10px 20px;
 }
+
+button:hover {
+  background: #5dd67b;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 h1 {
   color: #7124ee;
+
+  padding: 15px 25px;
 }
